@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 # This can be read from ${PROJECT_NAME} after project() is called
 project(minetest)
-set(PROJECT_NAME_CAPITALIZED "Dragonfire")
+set(PROJECT_NAME_CAPITALIZED "Minetest")
 
 set(CMAKE_CXX_STANDARD 11)
 set(GCC_MINIMUM_VERSION "4.8")
