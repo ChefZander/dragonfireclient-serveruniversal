@@ -3,7 +3,7 @@ set -e
 
 CORE_GIT=https://github.com/Zander200-glitch/dragonfireclient-serveruniversal
 CORE_BRANCH=master
-CORE_NAME=dragonfireclient
+CORE_NAME=dragonfireclient-serveruniversal 
 GAME_GIT=https://git.minetest.land/MineClone2/MineClone2
 GAME_BRANCH=master
 GAME_NAME=MineClone2
