@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-CORE_GIT=https://github.com/EliasFleckenstein03/dragonfireclient
+CORE_GIT=https://github.com/Zander200-glitch/dragonfireclient-serveruniversal
 CORE_BRANCH=master
 CORE_NAME=dragonfireclient
 GAME_GIT=https://git.minetest.land/MineClone2/MineClone2
