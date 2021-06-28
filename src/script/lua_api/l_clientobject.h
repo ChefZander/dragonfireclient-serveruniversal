@@ -35,6 +35,8 @@ public:
 	static void create(lua_State *L, ClientActiveObject *object);
 	static void create(lua_State *L, s16 id);
 
+	static void set_null(lua_State *L);
+
 	static ClientObjectRef *checkobject(lua_State *L, int narg);
 
 private:
@@ -75,8 +77,14 @@ private:
 	// get_nametag(self)
 	static int l_get_nametag(lua_State *L);
 
-	// get_textures(self)
+	// get_item_textures(self)
 	static int l_get_item_textures(lua_State *L);
+
+	// get_properties(self)
+	static int l_get_properties(lua_State *L);
+
+	// set_properties(self, properties)
+	static int l_set_properties(lua_State *L);
 
 	// get_hp(self)
 	static int l_get_hp(lua_State *L);
@@ -92,4 +100,7 @@ private:
 
 	// remove(self)
 	static int l_remove(lua_State *L);
+
+	// set_nametag_images(self, images)
+	static int l_set_nametag_images(lua_State *L);
 };
